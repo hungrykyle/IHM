@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>sncf</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+   <style>
+      body{
+        background-color: #cecece !important;
+      }
+     #app{
+      background-color:#cecece !important;
+      -webkit-box-flex: 1;
+      margin : auto;
+      padding :auto;
+      flex: 1 1 auto;
+     }
+   </style>
+
+  </head>
+  <body>
+    <div class="ui massive menu head">
+    <a class="active item">
+      Visualisation de données
+    </a>
+    <div class="right menu head">
+      <div class="item">
+        Maxime Husslein
+      </div>
+      <div class="item">
+          Julien Thomas
+      </div>
+    </div>
+  </div>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+   <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <noscript>
+      <strong>We're sorry but sncfproject doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    </div>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
