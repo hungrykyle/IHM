@@ -132,6 +132,7 @@ export default {
   border-radius: 30px;
   padding:auto;
   text-align: center;
+  overflow: hidden;
 }
 #divprincipale{
   border-style: solid;
