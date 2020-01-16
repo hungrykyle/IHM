@@ -219,12 +219,12 @@ export default {
                 dataf.next().value
               ],
               backgroundColor: [
-                "rgba(54,73,93,.5)", // Blue
-                "rgba(54,73,93,.5)",
-                "rgba(54,73,93,.5)",
-                "rgba(54,73,93,.5)"
+                "rgba(71, 183,132,.5)", // Blue
+                "rgba(71, 183,132,.5)",
+                "rgba(71, 183,132,.5)",
+                "rgba(71, 183,132,.5)"
               ],
-              borderColor: ["#36495d", "#36495d", "#36495d", "#36495d"],
+              borderColor: ["#47b784", "#47b784", "#47b784", "#47b784"],
               borderWidth: 3
             }
           ]
